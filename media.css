@@ -1,0 +1,32 @@
+@media only screen and (min-width:200px) {
+    h1{
+        font-size: small;
+    }
+    img {
+        height: 190px;
+        width: 180px;
+    }
+    
+}
+
+@media only screen and (min-width:400px) {
+    h1{
+        font-size: medium;
+    }
+    img {
+        height: 300px;
+        width: 280px;
+    }
+    
+}
+
+@media only screen and (min-width:1200px) {
+    h1{
+        font-size: large;
+    }
+    img {
+        height: 1000px;
+        width: 980px;
+    }
+    
+}

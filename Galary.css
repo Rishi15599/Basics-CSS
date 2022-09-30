@@ -1,0 +1,51 @@
+body
+{
+    background-image: url(./pngtree-colorful-gradient-background-picture-image_753907.jpg);
+}
+
+
+.Head
+{
+    background-color: olivedrab;
+    border: solid 5px gray;
+    border-radius: 75px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    
+}
+
+/* Insert all box */
+
+.img1
+{
+    border: solid 10px gray;
+    height: 190px;
+    width: 190px;
+    box-shadow: 5px 5px 20px black;
+    display: inline-block;
+    border-radius: 50px;
+
+    
+}
+
+
+.img2
+{
+    border:  white;
+    height: 200px;
+    width: 200px;
+    box-shadow: ;
+    display: inline-block;
+}
+
+.CLASS1
+{
+    border-radius: 50px;
+
+transition: transform 0.5s;
+}
+.CLASS1:hover
+{
+    transform: scale(1.2);
+}

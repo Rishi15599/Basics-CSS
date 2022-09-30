@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS</title>
+    <style>
+        /*Element Selector*/
+        h3
+        {
+            color: green;
+        }
+        /*ID Selector*/
+        #abc
+        {
+            color: red;
+        }
+        /*Class Selector*/
+        .xyz
+        {
+            color: cyan;
+        }
+        /*Group Selector*/
+        h1,p
+        {
+            background-color: orange;
+        }
+        /*Universal Selector*/
+        /* Either use * or use body */
+        body
+        {
+            background-color: limegreen;
+        }
+    </style>
+</head>
+<body>
+<!--
+    CSS : Cascading Style Sheet
+        it is used to style or disign for HTML page.
+    We can write all CSS property using(name:value) format.
+    EX- colour : red.
+
+    TYPES OF CSS --
+        1.Inlie CSS-
+            Giving the unique style for single HTML element using style attriute is called it as Inline CSS
+            EX- <h2 style="color: blue;"> .......... </h2>
+        2.Internal CSS-
+            Writting the css code in same html page using <style> tag is called Iternal CSS.
+            Selectors:It is used to select HTML element
+                Types of selectors-
+                    1.Element Selector(Tag name)
+                    2.ID Selector(#idname)
+                    3.Class Selector(.classname)
+                    4.Group Selector(using coma(,) we are seperating selector)
+                    5.Universal Selector(body/*)
+
+        
+-->
+
+    <h1>Cascading Style Sheet</h1>
+    <h2 style="color: blue;">
+        Inline CSS
+    </h2>
+    <h3>Interal CSS - Element Selector</h3>
+
+    <h3 id="abc">Interal CSS - ID Selector</h3>
+    <p id="abc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio odio sed, modi omnis consequuntur dolor in recusandae. Quae perspiciatis deserunt omnis veritatis rem assumenda illo nobis. Assumenda vel facere illum?</p>
+
+    <h3 class="xyz">Interal CSS - Class Selector</h3>
+    <p class="xyz">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam nisi necessitatibus dolore saepe alias minus molestiae, adipisci earum ad non commodi id sit voluptates magni excepturi aliquid inventore maxime.</p>
+
+    
+
+</body>
+</html>

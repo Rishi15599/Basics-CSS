@@ -1,0 +1,10 @@
+h1,p
+        {
+            background-color: orange;
+        }
+        /*Universal Selector*/
+        /* Either use * or use body */
+        body
+        {
+            background-color: limegreen;
+        }

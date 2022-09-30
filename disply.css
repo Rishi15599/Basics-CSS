@@ -1,0 +1,47 @@
+div{
+    display: inline;
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+}
+
+span{
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+
+
+@media only screen and(max-width:500px) {
+    h1{
+        font-size: small;
+    }
+    img {
+        height: 300px;
+        width: 300px;
+    }
+    
+}
+
+@media only screen and(max-width:500px) {
+    h1{
+        font-size: small;
+    }
+    img {
+        height: 500px;
+        width: 500px;
+    }
+    
+}
+
+@media only screen and(max-width:500px) {
+    h1{
+        font-size: small;
+    }
+    img {
+        height: 700px;
+        width: 700px;
+    }
+    
+}
